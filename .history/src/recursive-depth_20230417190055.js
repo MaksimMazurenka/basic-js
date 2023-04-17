@@ -1,4 +1,5 @@
 const { NotImplementedError } = require('../extensions/index.js');
+const CustomError = require("../extensions/custom-error");
 
 module.exports = class DepthCalculator {
   calculateDepth(arr) {
