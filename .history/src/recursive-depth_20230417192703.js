@@ -8,6 +8,6 @@ class DepthCalculator {
   return max + 1;
   }
 }
-module.exports = {
-  DepthCalculator
+module.exports = class DepthCalculator {
+  
 };
